@@ -1,0 +1,18 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Sys
+.DS_Store
+# Build
+dist
+lib
+esm
+
+# Test
+coverage
+# Node
+node_modules
