@@ -34,7 +34,7 @@ export function transpose() {
  */
 
 export function polar() {
-  return transform('polar', ([radius, theta]) => {
+  return transform('polar', ([theta, radius]) => {
     const x = radius * Math.cos(theta);
     const y = radius * Math.sin(theta);
     return [x, y];

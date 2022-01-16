@@ -11,7 +11,6 @@ function coordinate(transformOptions, canvasOptions) {
   const aspect = width / height;
   const sx = aspect > 1 ? 1 / aspect : 1;
   const sy = aspect > 1 ? 1 : aspect;
-
   return [
     translate(0, -0.5),
     reflectY(),
